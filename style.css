@@ -1,0 +1,439 @@
+*{
+    margin: 0% auto;
+    padding: 0%;
+    /* display: fixed; */
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* 底图背景 */
+body {
+    /* position:relative; */
+    width: 4000px;
+    height: 1214px;
+    margin: 0 auto;
+}
+.box1{
+    /* border: 1px solid #df7d7d; */
+    float: left;
+    width: 100%;
+    height: 1216px;
+    /* border: 1px solid blue; */
+    /* background: url(index.jpg) */
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: all 0.5s;
+}
+/* .big {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+} */
+/* .box1>a {
+    display: block;
+    float: left;
+    width: auto;
+    height: 4800px;
+} */
+.box2 {
+    /* float: left; */
+
+    height: 36px;
+    margin: 15px 20px ;
+    /* background-color: rgb(216, 98, 98); */
+    width: auto;
+    height: 80px;
+}
+.box2 .li1 a{
+    float: left;
+    overflow: hidden;
+    width: 250px;
+    height: 70px;
+    margin-right: 50px;
+    padding: 5px;
+    /* background-color: rgb(177, 110, 110); */
+}
+.box2 .li1 a img {
+    width: 250px;
+    height: 70px;
+}
+/* 设置二级菜单栏 */
+#dingwei{
+    display: block;
+    /* width: 100; */
+    height: 100%;
+    /* background-color: rgb(221, 130, 130); */
+}
+#erji {
+    display: none;
+    position: absolute;
+    width: 150px;
+    height: 220px;
+    right: 70px;
+    top: 72px;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.3);
+}
+.box2 ol li a:hover {
+    color: blue;
+    transition: all .2s;
+}
+#dingwei:hover #erji{
+    display: block;
+    color: blue;
+}
+.box2 ol div a{
+    float: left;
+    width: 125px;
+    height: 50px;
+}
+/* .box2 ol ul dl li {
+    float: left;
+} */
+/* 搜索框 */
+.box2 input {
+    float: left;
+    box-sizing: border-box;
+    width: 908px;
+    outline: none;
+    height: 75px;
+    font-size: 26px;
+    text-indent: 1.5em;
+    border-color: blue;
+    border-width: 3px 0px;
+    border-left: 4px solid blue;
+    border-top-left-radius:15px;
+    border-bottom-left-radius:15px;
+    transition: all .5s;
+}
+
+.box2 button {
+    float: left;
+    box-sizing:border-box;
+    background-color: rgb(74, 40, 228);
+    border: 0;
+    height: 75px;
+    width: 250px;
+    outline: none;
+    cursor: pointer;
+    font-size: 26px;
+    color: rgb(255, 255, 255);
+    border-top-right-radius:15px;
+    border-bottom-right-radius:15px;
+    transition: all .2s;
+}
+/* 左上角 */
+.box2 ol {
+    float: left;
+    /* width: 600px; */
+    position: absolute;
+    right: 15px;
+    /* background-color: rgb(255, 135, 135); */
+}
+.box2 ol li {
+    /* width: 200px; */
+    float: left;
+    /* width: 200px; */
+    height: 30px;
+}
+.box2 ol li a {
+    float: left;
+    /* width: 100px; */
+    /* float:right; */
+    font-size: 26px;
+    margin-left: 25px;
+    line-height: 75px ;
+    color: #ffffff;
+}
+/* .box2 ol li a:hover {
+    color: blue;
+} */
+
+.box3 {
+    float: left;
+    width: 100%;
+    height: 30px;
+    /* background-color: rgb(132, 148, 116); */
+    padding-left: 330px;
+}
+.box3 img {
+    float: left;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    margin-right: 5px;
+    margin-top: 3px;
+}
+.box3 ul li {
+    float: left;
+    margin-right:30px;
+    font-size: 26px;
+}
+.box3 ul li a {
+    color: #ffffff;
+}
+.box3 ul li:hover{
+    border-bottom:4px solid blue;
+    color: blue;
+    transition: all .1s;
+}
+/* 中部框 */
+.zhong {
+    width: 100%;
+    height: 800px;
+    margin-top:120px;
+    /* background-color: rgb(206, 130, 130); */
+}
+/* 中左部 */
+.box4 {
+    
+    float: left;
+    /* margin-top: 51px; */
+    margin-left: 330px;
+    width: 790px;
+    height: 800px;
+    /* background-color: rgba(0, 0, 0,0.3); */
+
+}
+.box4 ul .yi {
+    width: 790px;
+    height: 150px;
+    font-size: 28px;
+    /* background-color: rgb(142, 214, 108); */
+}
+.box4 ul .er {
+    width: 790px;
+    height: 480px;
+    
+}
+/* .box4 ul .san {
+    width: 790px;
+    height: 170px;
+}  */
+/* box4内容部分 */
+#li1{
+    float: left;
+    width: 790px;
+    height: 150px;
+    overflow: hidden;
+     /* background-color: rgb(142, 214, 108); */
+}
+#li1 div {
+    float: left;
+    overflow: hidden;
+    width: 120px;
+    height: 120px;
+    margin-top: 12px;
+    border-radius: 15px;
+}
+#li1 div img {
+    width: 120px;
+    height: 120px;
+}
+#li1 h1 {
+    float: left;
+    width: 400px;
+    line-height: 150px;
+    margin-left: 20px;
+    color: #ffffff;
+}
+#li1 span {
+    float: left;
+    width: 105px;
+    height: 61px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+    background-color: rgb(57, 36, 240);
+    margin-top: 45px;
+    line-height: 57px;
+    border-radius: 10px;
+}
+.box4 .er h1 {
+    font-size: 90px;
+    color: #ffffff;
+    margin-top: 50px;
+}
+.box4 .er p {
+    font-size: 32px;
+    color: #ffffff;
+}
+/* .box4 .san {
+    overflow: hidden;
+} */
+.box4 .san h4{
+    float: left;
+    width: 400px;
+    height: 100px;
+    font-size: 32px;
+    text-align: center;
+    line-height: 100px;
+    border-radius: 15px;
+    overflow: hidden;
+    color: #ffffff;
+    background-color: rgb(46, 43, 218); 
+    transition: all .2s;
+}
+.box4 .san h4 a {
+    display: block;
+}
+.box4 .san h4:hover,.box1 button:hover {
+    /* overflow:hidden; */
+    display: block;
+    /* cursor: pointer; */
+    background-color: rgb(72, 74, 238);
+}
+.box5 {
+    float: left;
+    
+    /* margin-top: 51px; */
+    /* margin-bottom: 551px; */
+    margin-left: 1940px;
+    width: 390px;
+    height: 740px;
+    padding: 30px;
+    background-color: rgba(0, 0, 0,0.5);
+    border-radius: 30px;
+    /* overflow: hidden; */
+    position: absolute;
+}
+.box5 ul li {
+    float: left;
+    text-align: center;
+    line-height: 147.2px;
+    width: 390px;
+    height: 147.2px;
+    font-size: 26px;
+    border-bottom: 1px solid #ffffff;
+}
+.box5 .li2 {
+    border-bottom: none;
+}
+.box5 ul li span {
+    float: left;
+    width: 148.69px;
+    height: 140px;
+    line-height: 205px;
+    margin-top: 2px;
+    overflow: hidden;
+    /* background-color: rgb(193, 226, 140); */
+}
+.box5 ul li span img {
+    /* margin-top: 8px; */
+    width: 148.69px;
+    height: 140px;
+    margin: -31px;
+}
+.box5 ul li p {
+    float: left;
+    width: 241.31px;
+    height: 148.69px;
+    line-height: 148.69px;
+    text-align: left;
+    font-weight: 700;
+    font-size: 32px;
+    color: #ffffff;
+}
+.box5 ul li p:hover a,.box5 ul li p:hover{
+    color: #cccccc;
+}
+/* box5二级显示部分 */
+.box5 ul li div {
+    float: left;
+    display: none;
+    overflow: auto;
+    position: absolute;
+    width: 370.31px;
+    height: 120px;
+    line-height: 120px;
+    text-indent: 1em;
+    padding: 10px;
+    border-radius: 0 15px 15px 0;
+    margin-left: 390px;
+    margin-top: 3px;
+    background-color: rgba(0, 0, 0,0.5);
+    
+}
+.box5 ul li div a {
+    float: left;
+    
+}
+.box5 ul li:hover div{
+    display: block;
+}
+.box6 {
+    float: left;
+    width: 100%;
+    margin-top: 50px;
+    height:100px;
+    /* background-color: rgb(246, 143, 143); */
+}
+.box6 ul {
+    float: left;
+    margin-left: 330px;
+    margin-top: px;
+    width: 2040px;
+    height: 80px;
+    /* overflow: hidden; */
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0,0.5);
+}
+.box6 ul li {
+    float: left;
+    width: 338px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 30px;
+    border-right: 1px solid #ffffff;
+    
+    /* padding: 10px; */
+    /* background-color: rgb(141, 102, 102); */
+}
+#bian1 {
+    border-right: 0;
+}
+.box6 ul li a:hover {
+    display: block;
+    
+    text-decoration: underline;
+    /* color: #1c37cf; */
+}
+
+/* 弹框部分 */
+
+.tankuang {
+    position: absolute;
+    top: 20%;
+    right: 50%;
+    width: 1000px;
+    height: 400px;
+    /* border: solid 1px orange; */
+    transform: scale(0);
+    background: white;
+    color: black;
+    text-align: center;
+    line-height: 400px;
+    transition: all .5s;
+    z-index: 9999;
+}
+.tankuang input {
+    width: 300px;
+    height: 100px;
+    background: orange;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    outline: none;
+    font-size: 45px;
+}
+
